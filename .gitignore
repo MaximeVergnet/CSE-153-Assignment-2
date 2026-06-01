@@ -1,0 +1,54 @@
+# --- MAESTRO dataset (download locally; ~57 MB+ MIDI) ---
+data/
+*.zip
+
+# --- Training / generation outputs ---
+checkpoints/
+generated/
+*.pt
+*.pth
+*.ckpt
+
+# --- Submission artifacts (export before Gradescope; don't version) ---
+workbook.html
+symbolic_unconditioned.mid
+symbolic_conditioned.mid
+continuous_unconditioned.mp3
+continuous_conditioned.mp3
+video_url.txt
+
+# --- Plots (regenerated from notebook) ---
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Logs / temp ---
+*.log
+*.tmp
+.cache/
