@@ -3,14 +3,10 @@ data/
 *.zip
 
 # --- Training / generation outputs ---
-generated/
-*.pt
-*.pth
-*.ckpt
+
 
 # --- Submission artifacts (export before Gradescope; don't version) ---
 workbook.html
-symbolic_unconditioned.mid
 symbolic_conditioned.mid
 continuous_unconditioned.mp3
 continuous_conditioned.mp3
