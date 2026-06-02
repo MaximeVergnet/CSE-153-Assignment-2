@@ -7,7 +7,7 @@ data/
 
 # --- Submission artifacts (export before Gradescope; don't version) ---
 workbook.html
-symbolic_conditioned.mid
+# symbolic_conditioned.mid
 continuous_unconditioned.mp3
 continuous_conditioned.mp3
 video_url.txt
